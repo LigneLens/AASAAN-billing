@@ -5,7 +5,7 @@ app = FastAPI()
 
 VERIFY_TOKEN = "bharat_erp_secret_123"
 PHONE_NUMBER_ID = "1177923822074684" 
-WHATSAPP_TOKEN = "PASTE_YOUR_NEW_TOKEN_HERE" 
+WHATSAPP_TOKEN = "EAAcqh6naa9ABSDm8Y9wWU8psZCUZBda4ywGZBQueV5XYN0ZBlIRVpGdbjgvhJkhmS6gZCrZCXziBqMDXurmwbKZByX0xyG4mrmpJMdUOhUpEAidTScT2krYrugJAZAxho0iHSZAM6IQfRJNZBEdH89yrH4q5DL9ARXdXTk5JTRcZBrCfa5IMKU2QgtqY3ZCQFlfZC7dZAgLTRy3LbeZCvwJ5ErlgHXhV8GCWEg6MFqBhcwKaFZAsQvG0QcfJftC3VjuNMsS1wPsvNFSeTuukN1cHhKnZAWZBeMtgZDZD" 
 
 # This creates a single door named "/webhook" that handles EVERYTHING
 @app.api_route("/webhook", methods=["GET", "POST"])
